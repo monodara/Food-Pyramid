@@ -11,11 +11,26 @@
     --orange-width-margin: calc(var(--orange-width) - 20px);
     --border: 130px;
     /* --border: calc(var(--orange-width-margin)/2); */
+    --color-bottom-second: #905a3d;
+    --color-bottom: #31f869;
 }
 
 body{
     text-align: center;
     align-items: center;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding: 10px 5px;
+    margin: 20px auto;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
 }
 
 .circle {
@@ -153,7 +168,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #826858;
+    background-color: var(--color-bottom-second);
     width: var(--brown-width);
     height: var(--height);
     position: relative;
@@ -164,7 +179,7 @@ body{
     content: "";
     width: 0px;
     height: 0px;
-    border-bottom: var(--height) solid #826858;
+    border-bottom: var(--height) solid var(--color-bottom-second);
     border-left: var(--height) solid transparent;
     position: absolute;
     right: 100%;
@@ -175,7 +190,7 @@ body{
     content: "";
     width: 0px;
     height: 0px;
-    border-bottom: var(--height) solid #826858;
+    border-bottom: var(--height) solid var(--color-bottom-second);
     border-right: var(--height) solid transparent;
     position: absolute;
     left: 100%;
@@ -185,7 +200,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #31f869;
+    background-color: var(--color-bottom);
     width: var(--green-width);
     height: var(--height);
     position: relative;
@@ -196,7 +211,7 @@ body{
     content: "";
     width: 0px;
     height: 0px;
-    border-bottom: var(--height) solid #31f869;
+    border-bottom: var(--height) solid var(--color-bottom);
     border-left: var(--height) solid transparent;
     position: absolute;
     right: 100%;
@@ -207,7 +222,7 @@ body{
     content: "";
     width: 0px;
     height: 0px;
-    border-bottom: var(--height) solid #31f869;
+    border-bottom: var(--height) solid var(--color-bottom);
     border-right: var(--height) solid transparent;
     position: absolute;
     left: 100%;
@@ -227,7 +242,7 @@ body{
     height: 0;
     border-left: var(--border) solid transparent;
     border-right: var(--border) solid transparent;
-    border-bottom:  var(--border) solid red;
+    border-bottom:  var(--border) solid #ef4136;
     margin: auto auto;
 }
 

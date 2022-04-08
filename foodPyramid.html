@@ -8,13 +8,20 @@
     <link rel="stylesheet" type="text/css" href="foodPyramid.css">
 </head>
 <body>
+    <div>
+        <button id="below4" class="changeAgeGroup">Food triangle for children aged 1 to 4</button>
+        <button id="over5" class="changeAgeGroup">Food triangle for adults, teenagers and children aged 5 and over</button>
+    </div>
+    <br />
     <div class="triangle change">
         <div>
             <span class="minus hide circle tabular">-</span>
             <span class="number circle tabular">0</span>
             <span class="plus hide circle tabular">+</span>
         </div>
+        <div class="inside_text"></div>
     </div>
+
     <div class="trapezium orange change">
         <div>
             <span class="minus hide circle tabular">-</span>
@@ -22,6 +29,8 @@
             <span class="plus hide circle tabular">+</span>
         </div>
     </div>
+    <!-- <div class="inside_text">Reduced-fat spreads</div> -->
+
     <div class="trapezium yellow change">
         <div>
             <span class="minus hide circle tabular">-</span>
@@ -29,6 +38,7 @@
             <span class="plus hide circle tabular">+</span>
         </div>
     </div>
+    <!-- <div class="inside_text">Meat, poultry, fish, eggs, beans and nuts</div> -->
     <div class="trapezium blue change">
         <div>
             <span class="minus hide circle tabular">-</span>
@@ -36,6 +46,7 @@
             <span class="plus hide circle tabular">+</span>
         </div>
     </div>
+    <!-- <div class="inside_text">Milk, yogurt and cheeses</div> -->
     <div class="trapezium brown change">
         <div>
             <span class="minus hide circle tabular">-</span>
@@ -43,17 +54,18 @@
             <span class="plus hide circle tabular">+</span>
         </div>
     </div>
+    <!-- <div class="inside_text">Fruit and vegetables</div> -->
     <div class="trapezium green change">
         <div>
             <span class="minus hide circle tabular">-</span>
             <span class="number circle tabular">0</span>
             <span class="plus hide circle tabular">+</span>
         </div>
+        <!-- <div>Bread, cereals, potatoes, pasta and rice</div> -->
     </div>
-    <div class="foot">
-        <h3>My Food Pyramid</h3>
-        <input type="date">
-    </div>
+
+    <h3>My Food Pyramid</h3>
+    <input type="date">
     
 </body>
 <script type="text/javascript" src="foodPyramid.js"></script>
